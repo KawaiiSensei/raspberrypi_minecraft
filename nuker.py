@@ -5,6 +5,8 @@ from mcpi.minecraft import Minecraft
 mc = Minecraft.create()
 air = 0
 
+# Allow the user to specify how big the radius
+
 ''' Nuker function'''
 def nuker():
 	while True:
