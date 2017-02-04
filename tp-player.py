@@ -1,4 +1,4 @@
-b'''imports'''
+'''imports'''
 from mcpi.minecraft import Minecraft
 
 ''' Init '''
