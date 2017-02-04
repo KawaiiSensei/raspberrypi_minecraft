@@ -10,12 +10,17 @@ mc = Minecraft.create()
 #In development
 
 def tptocords():
+	''' Get current self cords '''
         x, y, z = mc.player.getPos()
+        ''' Assign each cord to correct axis '''
         a = input("x axis? Left and Right (MAX: -127, 127)| ")
         b = input("y axis? Height | ")
         c = input("z axis? Forward and Backwards (MAX: -127, 127)| ")
-        loc = a, b, c
+
+        ''' Print which cords you are teleporting to '''
         print("Teleporting to X:", a, "Y:", b, "Z:", c)
+
+        ''' Set specified cords to current cords '''
         mc.player.setPos(a, b, c)
         mc.postToChat("Teleporting to given location...." )
 
