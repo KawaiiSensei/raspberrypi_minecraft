@@ -35,11 +35,13 @@ def ship():
                 ''' Simple wait timer to not overload the program'''
 
 
+               
+''' Work in progress !!!
 def tship():
         while True:
-                ''' Get the player location '''
+                # Get the player location =
                 x, y, z = mc.player.getPos()
-                ''' Sets the block in a radius of 5 to air '''
+                #Sets the block in a radius of 5 to air
                 a, b, c = x, y, z
                 if mc.getBlocks(a-4, b-4, c-4, a+4, b+8, c+4) is not 0:
                         mc.postToChat("Blocks in the way")
@@ -55,5 +57,4 @@ def tship():
                         mc.setBlocks(a-2, b, c-2, a+2, b+2, c+2, fence)
                         mc.setBlocks(a-1, b, c-1, a+1, b+2, c+1, air)
                         mc.setBlocks(a-3, b+3, c-3, a+3, b+7, c+3, wool)
-                        
-                        
+                        '''
