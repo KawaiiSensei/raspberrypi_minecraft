@@ -10,4 +10,4 @@ Spawning a ship,
 
 # TODO
 
-Try use a for loop intead of a while loop for ship.py
+Try use a for loop intead of a while loop for buildaship.py
