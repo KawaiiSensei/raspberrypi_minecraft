@@ -36,7 +36,9 @@ def ship():
 
 
                
-''' Work in progress !!!
+'''  Work in progress !!!
+        Get the program to spawn the ship unless there is only air around it
+        This will prevent blocks from being destroyed.   
 def tship():
         while True:
                 # Get the player location =

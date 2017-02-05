@@ -31,6 +31,8 @@ if ask == 'yes' or 'y':
         mc.postToChat("nuker Enabled")
         ''' Call function'''
         nuker()
+
+''' ERROR WITH EXITING PROGRAM '''
 elif ask not in ("yes"):
         print("Thanks for using my program")
 ''' if not chosen above simply print an exit command '''
