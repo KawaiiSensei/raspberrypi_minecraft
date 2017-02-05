@@ -6,3 +6,8 @@ Just some simple code to see what's possible with the game
 So far I have been able to create a 
 Nuker function,
 TP-all function, 
+Spawning a ship,
+
+# TODO
+
+Try use a for loop intead of a while loop for ship.py
